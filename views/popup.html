@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Counter</title>
+    <link rel="stylesheet" href="../styles/popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Tab Counter</h1>
+      </header>
+
+      <main>
+        <section class="counter-container">
+          <span id="tab-count">0</span>
+          <span class="label">tabs open</span>
+        </section>
+
+        <section class="tabs-list">
+          <h2>Open Tabs</h2>
+          <div id="tabs-container" class="tabs-container">
+            <!-- Tab items will be inserted here by JavaScript -->
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="version">v1.0</div>
+      </footer>
+    </div>
+
+    <!-- Load scripts with type="module" to enable ES6 imports -->
+    <script type="module" src="../src/popup/popup.js"></script>
+  </body>
+</html>
