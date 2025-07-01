@@ -6,6 +6,8 @@
  * tab events, and updates the badge and storage accordingly.
  */
 
+console.log("Bg start");
+
 import { getTabCount, updateBadge, storeTabCount } from "../utils/tabUtils.js";
 
 /**
